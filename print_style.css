@@ -1,0 +1,74 @@
+.print-logo{
+	width: 100%;
+	height: 75px;
+	text-align: center;
+}
+
+#logo{
+	float: none !important;
+	/*display: block;*/
+	margin: 0 auto !important;
+}
+
+.print-site_name, .print-breadcrumb, .print-source_url, .print-links, #block-menu-menu-footer-menu{
+	display: none;
+}
+
+.print-content, .print-footer{
+	max-width: 19cm;
+	margin-left: 1cm;
+	margin-right: 1cm;
+	margin: 0 auto;
+}
+
+
+.print-content .field-type-taxonomy-term-reference{
+	display: none;
+}
+
+.print-content img{
+	display: inline-block;
+	float: left;
+	max-width: 300px;
+	max-height: 300px;
+	width: auto;
+	height: auto;
+}
+
+.print-content{
+	line-height: 1.0;
+	font-size: 14px;
+}
+
+table{
+	background-color: #fff;
+}
+
+header h2{
+	font-size: 22px !important;
+	font-weight: bold;
+	text-align: center;
+}
+
+.content h2{
+	font-size: 14px;
+}
+
+#block-block-14{
+	position: relative !important;
+	margin-right: 1cm;
+}
+
+#block-menu-menu-footer-menu{
+	display: none !important;
+}
+
+body, table, tr, td{
+	background: #fff !important;
+	color: #333;
+}
+
+.print-social-links{
+    display: inline-block;
+    float: right;
+}
